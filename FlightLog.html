@@ -1,0 +1,61 @@
+<HTML>
+<link rel = "stylesheet" href = "FlightLog.css">
+<body style = "background-color:rgba(151,163,225,1)">
+<div style = "text-align:center">
+<input type = "text" value = "Navigate to:" class = "navigate" style = "border:none">
+<input type = "button" value = "Flight Log" class = "navigate">
+<input type = "button" value = "Airfield Log" class = "navigate">
+</div>
+<div id = "Title" style = "margin-top:10px; margin-bottom:2px; background-color:rgba(9,16,62,1); text-align:center; font-family:'Courier New'; font-size:50; color:rgba(234,236,244,1)">
+Flight Log
+</div>
+<div style = "text-align:center;">
+<input type = "button" value = "Create New Log" class = "recordFieldFilter" style = "width:100%"><BR><BR>
+</div>
+<div id = "FilterMenu1" style = "background-color:rgba(9,16,62,1); padding:10px; text-align:center; font-family:'Courier New'; font-size:15; color:rgba(234,236,244,1); margin:2px">
+	From:<input = "text" id = "ToDate" class= "recordFieldFilter">
+	To:<input = "text" id = "FromDate" class= "recordFieldFilter">
+	Solo/Dual:<input = "text" id = "SoloDual" class= "recordFieldFilter">
+	<input = "Button" value = "Hours:" id = "CalcHours" class= "recordFieldFilter">
+	<input = "text" id = "ShowHours" class= "recordFieldFilter">
+</div>
+<div id = "FilterMenu1" style = "background-color:rgba(9,16,62,1); padding:10px; text-align:center; font-family:'Courier New'; font-size:15; color:rgba(234,236,244,1); margin:2px">
+	From:<input = "text" id = "ToDate" class= "recordFieldFilter">
+	To:<input = "text" id = "FromDate" class= "recordFieldFilter">
+	<input = "Button" value = "Landings:" id = "CalcLands" class= "recordFieldFilter">
+	<input = "text" id = "ShowLands" class= "recordFieldFilter">
+</div><BR><BR>
+<div id = "Project" style = "background-color:rgba(9,16,62,1); padding:15px; text-align:center">
+	<span id = "ID" class= "recordField">
+		ID Number: <input style = "width:60px; height:15px; border:none; background:none" type = "text" id = "IDText" name = "IDText">
+	</span>
+	<input = "button" value = "Edit" id = "ID" class= "recordField" style= "text-align:center; background-color:rgba(9,16,62,1); color:rgba(234,236,244,1); border-style:dotted; border-width:1px; border-color:rgba(234,236,244,1)">
+	<input = "button" value = "Delete" id = "ID" class= "recordField" style= "text-align:center; background-color:rgba(9,16,62,1); color:rgba(234,236,244,1); border-style:dotted; border-width:1px; border-color:rgba(234,236,244,1)">
+	<span id = "Date" class= "recordField" style = "width:410px">
+		Description: <input style = "width:200px; height:15px; border:none; background:none" type = "text" id = "IDText" name = "IDText">
+	</span>
+	<span id = "Date" class= "recordField">
+		Flight Date: <input style = "width:60px; height:15px; border:none; background:none" type = "text" id = "IDText" name = "IDText">
+	</span>
+	<span id = "Time" class= "recordField">
+		Flight Time: <input style = "width:60px; height:15px; border:none; background:none" type = "text" id = "IDText" name = "IDText">
+	</span>
+	<span id = "Callsign" class= "recordField">
+		Callsign: <input style = "width:60px; height:15px; border:none; background:none" type = "text" id = "IDText" name = "IDText">
+	</span>
+	<span id = "ID" class= "recordField">
+		Passengers: <input style = "width:60px; height:15px; border:none; background:none" type = "text" id = "IDText" name = "IDText">
+	</span>
+	<span id = "ID" class= "recordField">
+		Airfield: <input style = "width:60px; height:15px; border:none; background:none" type = "text" id = "IDText" name = "IDText">
+	</span>
+	<span id = "ID" class= "recordField">
+		Landings: <input style = "width:60px; height:15px; border:none; background:none" type = "text" id = "IDText" name = "IDText">
+	</span>
+	<span id = "ID" class= "recordField">
+		Solo or Dual: <input style = "width:60px; height:15px; border:none; background:none" type = "text" id = "IDText" name = "IDText">
+	</span>
+</div><BR>
+</HTML>
+
+<!-- //background-image:url('C:/Users/admin/Desktop/PlaneBackground.png')-->
